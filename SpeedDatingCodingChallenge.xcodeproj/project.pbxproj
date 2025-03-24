@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CA91511B2D91C6AD00F4EC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9151022D91C6AB00F4EC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9151092D91C6AB00F4EC2D;
+			remoteInfo = SpeedDatingCodingChallenge;
+		};
+		CA9151252D91C6AD00F4EC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA9151022D91C6AB00F4EC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9151092D91C6AB00F4EC2D;
+			remoteInfo = SpeedDatingCodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA91510A2D91C6AB00F4EC2D /* SpeedDatingCodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedDatingCodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA91511A2D91C6AD00F4EC2D /* SpeedDatingCodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedDatingCodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9151242D91C6AD00F4EC2D /* SpeedDatingCodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedDatingCodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CA91510C2D91C6AB00F4EC2D /* SpeedDatingCodingChallenge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpeedDatingCodingChallenge;
+			sourceTree = "<group>";
+		};
+		CA91511D2D91C6AD00F4EC2D /* SpeedDatingCodingChallengeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpeedDatingCodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		CA9151272D91C6AD00F4EC2D /* SpeedDatingCodingChallengeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpeedDatingCodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA9151072D91C6AB00F4EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9151172D91C6AD00F4EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9151212D91C6AD00F4EC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA9151012D91C6AB00F4EC2D = {
+			isa = PBXGroup;
+			children = (
+				CA91510C2D91C6AB00F4EC2D /* SpeedDatingCodingChallenge */,
+				CA91511D2D91C6AD00F4EC2D /* SpeedDatingCodingChallengeTests */,
+				CA9151272D91C6AD00F4EC2D /* SpeedDatingCodingChallengeUITests */,
+				CA91510B2D91C6AB00F4EC2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA91510B2D91C6AB00F4EC2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA91510A2D91C6AB00F4EC2D /* SpeedDatingCodingChallenge.app */,
+				CA91511A2D91C6AD00F4EC2D /* SpeedDatingCodingChallengeTests.xctest */,
+				CA9151242D91C6AD00F4EC2D /* SpeedDatingCodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA9151092D91C6AB00F4EC2D /* SpeedDatingCodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA91512E2D91C6AD00F4EC2D /* Build configuration list for PBXNativeTarget "SpeedDatingCodingChallenge" */;
+			buildPhases = (
+				CA9151062D91C6AB00F4EC2D /* Sources */,
+				CA9151072D91C6AB00F4EC2D /* Frameworks */,
+				CA9151082D91C6AB00F4EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CA91510C2D91C6AB00F4EC2D /* SpeedDatingCodingChallenge */,
+			);
+			name = SpeedDatingCodingChallenge;
+			packageProductDependencies = (
+			);
+			productName = SpeedDatingCodingChallenge;
+			productReference = CA91510A2D91C6AB00F4EC2D /* SpeedDatingCodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA9151192D91C6AD00F4EC2D /* SpeedDatingCodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9151312D91C6AD00F4EC2D /* Build configuration list for PBXNativeTarget "SpeedDatingCodingChallengeTests" */;
+			buildPhases = (
+				CA9151162D91C6AD00F4EC2D /* Sources */,
+				CA9151172D91C6AD00F4EC2D /* Frameworks */,
+				CA9151182D91C6AD00F4EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA91511C2D91C6AD00F4EC2D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA91511D2D91C6AD00F4EC2D /* SpeedDatingCodingChallengeTests */,
+			);
+			name = SpeedDatingCodingChallengeTests;
+			packageProductDependencies = (
+			);
+			productName = SpeedDatingCodingChallengeTests;
+			productReference = CA91511A2D91C6AD00F4EC2D /* SpeedDatingCodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA9151232D91C6AD00F4EC2D /* SpeedDatingCodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9151342D91C6AD00F4EC2D /* Build configuration list for PBXNativeTarget "SpeedDatingCodingChallengeUITests" */;
+			buildPhases = (
+				CA9151202D91C6AD00F4EC2D /* Sources */,
+				CA9151212D91C6AD00F4EC2D /* Frameworks */,
+				CA9151222D91C6AD00F4EC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9151262D91C6AD00F4EC2D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA9151272D91C6AD00F4EC2D /* SpeedDatingCodingChallengeUITests */,
+			);
+			name = SpeedDatingCodingChallengeUITests;
+			packageProductDependencies = (
+			);
+			productName = SpeedDatingCodingChallengeUITests;
+			productReference = CA9151242D91C6AD00F4EC2D /* SpeedDatingCodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA9151022D91C6AB00F4EC2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CA9151092D91C6AB00F4EC2D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CA9151192D91C6AD00F4EC2D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CA9151092D91C6AB00F4EC2D;
+					};
+					CA9151232D91C6AD00F4EC2D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CA9151092D91C6AB00F4EC2D;
+					};
+				};
+			};
+			buildConfigurationList = CA9151052D91C6AB00F4EC2D /* Build configuration list for PBXProject "SpeedDatingCodingChallenge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA9151012D91C6AB00F4EC2D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA91510B2D91C6AB00F4EC2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9151092D91C6AB00F4EC2D /* SpeedDatingCodingChallenge */,
+				CA9151192D91C6AD00F4EC2D /* SpeedDatingCodingChallengeTests */,
+				CA9151232D91C6AD00F4EC2D /* SpeedDatingCodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA9151082D91C6AB00F4EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9151182D91C6AD00F4EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9151222D91C6AD00F4EC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA9151062D91C6AB00F4EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9151162D91C6AD00F4EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9151202D91C6AD00F4EC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA91511C2D91C6AD00F4EC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9151092D91C6AB00F4EC2D /* SpeedDatingCodingChallenge */;
+			targetProxy = CA91511B2D91C6AD00F4EC2D /* PBXContainerItemProxy */;
+		};
+		CA9151262D91C6AD00F4EC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9151092D91C6AB00F4EC2D /* SpeedDatingCodingChallenge */;
+			targetProxy = CA9151252D91C6AD00F4EC2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA91512C2D91C6AD00F4EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA91512D2D91C6AD00F4EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA91512F2D91C6AD00F4EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedDatingCodingChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arthurdearaujo.SpeedDatingCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA9151302D91C6AD00F4EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedDatingCodingChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arthurdearaujo.SpeedDatingCodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA9151322D91C6AD00F4EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arthurdearaujo.SpeedDatingCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedDatingCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedDatingCodingChallenge";
+			};
+			name = Debug;
+		};
+		CA9151332D91C6AD00F4EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arthurdearaujo.SpeedDatingCodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedDatingCodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedDatingCodingChallenge";
+			};
+			name = Release;
+		};
+		CA9151352D91C6AD00F4EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arthurdearaujo.SpeedDatingCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedDatingCodingChallenge;
+			};
+			name = Debug;
+		};
+		CA9151362D91C6AD00F4EC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 72H7NZKH7W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arthurdearaujo.SpeedDatingCodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedDatingCodingChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA9151052D91C6AB00F4EC2D /* Build configuration list for PBXProject "SpeedDatingCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA91512C2D91C6AD00F4EC2D /* Debug */,
+				CA91512D2D91C6AD00F4EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA91512E2D91C6AD00F4EC2D /* Build configuration list for PBXNativeTarget "SpeedDatingCodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA91512F2D91C6AD00F4EC2D /* Debug */,
+				CA9151302D91C6AD00F4EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9151312D91C6AD00F4EC2D /* Build configuration list for PBXNativeTarget "SpeedDatingCodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9151322D91C6AD00F4EC2D /* Debug */,
+				CA9151332D91C6AD00F4EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9151342D91C6AD00F4EC2D /* Build configuration list for PBXNativeTarget "SpeedDatingCodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9151352D91C6AD00F4EC2D /* Debug */,
+				CA9151362D91C6AD00F4EC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA9151022D91C6AB00F4EC2D /* Project object */;
+}
