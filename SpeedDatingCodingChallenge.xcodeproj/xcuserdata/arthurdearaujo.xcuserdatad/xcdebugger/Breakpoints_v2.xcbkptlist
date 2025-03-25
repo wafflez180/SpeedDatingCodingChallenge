@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3ED59DE0-E4A0-4513-B7B9-B32F715CC76B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B5A53DE-257D-48A5-8800-BA796C3A0430"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "init(viewController:webView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F85D9873-D210-48CA-AFC9-28541F541007"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "init(viewController:webView:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F85D9873-D210-48CA-AFC9-28541F541007 - c8a7f9c4d38350c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.__allocating_init(viewController: Swift.Optional&lt;__C.UIViewController&gt;, webView: Swift.Optional&lt;__C.WKWebView&gt;) -&gt; SpeedDatingCodingChallenge.VideoMessageHandler"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "F85D9873-D210-48CA-AFC9-28541F541007 - 2e52dce96597f765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.init(viewController: Swift.Optional&lt;__C.UIViewController&gt;, webView: Swift.Optional&lt;__C.WKWebView&gt;) -&gt; SpeedDatingCodingChallenge.VideoMessageHandler"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB422608-7322-42AC-89B5-993E382544A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "VideoMessageHandler"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DB422608-7322-42AC-89B5-993E382544A0 - c8a7f9c4d38350c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.__allocating_init(viewController: Swift.Optional&lt;__C.UIViewController&gt;, webView: Swift.Optional&lt;__C.WKWebView&gt;) -&gt; SpeedDatingCodingChallenge.VideoMessageHandler"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "DB422608-7322-42AC-89B5-993E382544A0 - 2e52dce96597f765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.init(viewController: Swift.Optional&lt;__C.UIViewController&gt;, webView: Swift.Optional&lt;__C.WKWebView&gt;) -&gt; SpeedDatingCodingChallenge.VideoMessageHandler"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E06924A2-265A-4C61-B166-5D59AB1FEE18"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "VideoMessageHandler"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E06924A2-265A-4C61-B166-5D59AB1FEE18 - 8aa99e238595184b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.isRecording.getter : Swift.Bool"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "E06924A2-265A-4C61-B166-5D59AB1FEE18 - 57307d700765f356"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.isRecording.setter : Swift.Bool"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7">
+               </Location>
+               <Location
+                  uuid = "E06924A2-265A-4C61-B166-5D59AB1FEE18 - d69f63003cca3d27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.isRecording.modify : Swift.Bool"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7">
+               </Location>
+               <Location
+                  uuid = "E06924A2-265A-4C61-B166-5D59AB1FEE18 - dd7fd05e18c02ca0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.isRecording.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "E06924A2-265A-4C61-B166-5D59AB1FEE18 - 2e52dce96597f4ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.init(viewController: Swift.Optional&lt;__C.UIViewController&gt;, webView: Swift.Optional&lt;__C.WKWebView&gt;) -&gt; SpeedDatingCodingChallenge.VideoMessageHandler"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D627B4CF-CF85-4A82-B5B1-29DC29CAD926"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "VideoMessageHandler"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D627B4CF-CF85-4A82-B5B1-29DC29CAD926 - 4eab69cc4d2c831e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.webView.getter : Swift.Optional&lt;__C.WKWebView&gt;"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "D627B4CF-CF85-4A82-B5B1-29DC29CAD926 - 9b5d592e64e74454"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.webView.setter : Swift.Optional&lt;__C.WKWebView&gt;"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6">
+               </Location>
+               <Location
+                  uuid = "D627B4CF-CF85-4A82-B5B1-29DC29CAD926 - 8d3802a5ef90235b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.webView.modify : Swift.Optional&lt;__C.WKWebView&gt;"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6">
+               </Location>
+               <Location
+                  uuid = "D627B4CF-CF85-4A82-B5B1-29DC29CAD926 - a0a033e6ca37448f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.webView.modify : Swift.Optional&lt;__C.WKWebView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "D627B4CF-CF85-4A82-B5B1-29DC29CAD926 - 2e52dce96597f484"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpeedDatingCodingChallenge.VideoMessageHandler.init(viewController: Swift.Optional&lt;__C.UIViewController&gt;, webView: Swift.Optional&lt;__C.WKWebView&gt;) -&gt; SpeedDatingCodingChallenge.VideoMessageHandler"
+                  moduleName = "SpeedDatingCodingChallenge.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arthurdearaujo/Desktop/SpeedDatingCodingChallenge/SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F829635-2B0D-46FD-9DA1-3AC3C5B6120A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "setupNotifications()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB3F1588-335B-43DC-BC1D-80FDFFAC9E81"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "setupNotifications()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09D2A2A0-63AB-4E27-BE00-2EFAF5D38F92"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "VideoMessageHandler"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68C9682B-07DF-4435-ACF4-94F4C97BE20A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "VideoMessageHandler"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BC81B5B-44A8-44F2-BC16-C11C1281865B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "userContentController(_:didReceive:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C649816D-B68D-4B62-AB97-1636AF26D42D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpeedDatingCodingChallenge/VideoMessageHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "VideoMessageHandler"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

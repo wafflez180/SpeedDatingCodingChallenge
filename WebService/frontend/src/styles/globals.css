@@ -1,0 +1,518 @@
+/* Swiper styles for TikTok-like interface */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Video carousel styles */
+.slick-slider {
+  height: 100vh !important;
+  overflow: hidden;
+  touch-action: pan-y pinch-zoom;
+  background-color: black;
+}
+
+.slick-list, .slick-track {
+  height: 100% !important;
+}
+
+.slick-slide {
+  height: 100vh !important;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+
+.slick-slide > div {
+  height: 100%;
+  position: relative;
+}
+
+.slick-slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  touch-action: none;
+  background-color: black;
+}
+
+/* Custom dots style */
+.slick-dots {
+  right: 10px !important;
+  top: 50% !important;
+  bottom: auto !important;
+  transform: translateY(-50%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  width: auto !important;
+  z-index: 20 !important;
+}
+
+.slick-dots li {
+  margin: 4px 0 !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  opacity: 0.4 !important;
+  font-size: 6px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1 !important;
+  color: white !important;
+}
+
+/* Video interaction area */
+.video-interaction-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 100px;
+  z-index: 30;
+}
+
+/* Button styles */
+.video-interaction-area button {
+  background: transparent;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.video-interaction-area button:active {
+  transform: scale(0.9);
+}
+
+.video-interaction-area .count {
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Video info area */
+.video-info-area {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 100px;
+  padding: 20px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  z-index: 20;
+}
+
+.video-info-area h3 {
+  margin-bottom: 8px;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Loading state */
+.video-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 40;
+}
+
+/* Prevent text selection */
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Reset any fullscreen styles */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+}
+
+/* Container styles */
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  background-color: #000;
+  overflow: hidden;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+  contain: strict;
+}
+
+/* Video wrapper styles */
+.video-wrapper {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  background-color: #000;
+  touch-action: none !important;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  will-change: transform;
+  contain: strict;
+  max-height: 100vh;
+  max-height: 100dvh;
+}
+
+/* Video element styles */
+.video-element {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  max-height: 100vh !important;
+  max-height: 100dvh !important;
+  background-color: #000;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  will-change: transform;
+  contain: strict;
+  z-index: 1;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+@supports (object-fit: cover) {
+  .video-element {
+    object-fit: cover !important;
+  }
+}
+
+/* Prevent fullscreen */
+:fullscreen,
+:-webkit-full-screen,
+:-moz-full-screen,
+:-ms-fullscreen {
+  display: none !important;
+}
+
+::backdrop {
+  display: none !important;
+}
+
+/* Additional fullscreen prevention */
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-fullscreen-volume-slider {
+  display: none !important;
+}
+
+video::-webkit-media-controls-fullscreen-volume-max-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-fullscreen-button {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute !important;
+}
+
+/* Force inline playback */
+video {
+  max-height: 100vh !important;
+  max-height: 100dvh !important;
+  object-fit: contain !important;
+  -webkit-video-playable-inline: true !important;
+}
+
+/* Video interaction area */
+.video-interaction-area {
+  position: absolute;
+  right: 8px;
+  bottom: 150px;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0 4px;
+}
+
+.interaction-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  transition: transform 0.2s;
+  color: #fff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.interaction-button:active {
+  transform: scale(0.9);
+}
+
+.icon-wrapper {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+}
+
+.count {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* Video info area */
+.video-info-area {
+  position: absolute;
+  left: 12px;
+  right: 64px;
+  bottom: 24px;
+  z-index: 20;
+  padding: 0;
+  pointer-events: none;
+}
+
+.title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Loading states */
+.video-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+  z-index: 40;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error state */
+.video-error {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 50;
+  padding: 16px;
+  text-align: center;
+}
+
+.video-error button {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.video-error button:hover {
+  background: #fff;
+}
+
+/* Progress dots */
+.slick-dots {
+  right: 8px !important;
+  top: 50% !important;
+  bottom: auto !important;
+  transform: translateY(-50%) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  width: auto !important;
+  gap: 8px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+}
+
+.slick-dots li {
+  margin: 0 !important;
+  width: 4px !important;
+  height: 4px !important;
+  padding: 0 !important;
+}
+
+.slick-dots li button {
+  width: 4px !important;
+  height: 4px !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  background: rgba(255, 255, 255, 0.4) !important;
+  border: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  cursor: pointer !important;
+  transition: background-color 0.2s !important;
+}
+
+.slick-dots li.slick-active button {
+  background: #fff !important;
+}
+
+/* Prevent text selection */
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Additional iOS fullscreen prevention */
+video {
+  pointer-events: none !important; /* Prevent direct interaction with video element */
+  touch-action: none !important;
+  -webkit-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+/* Custom video controls */
+.video-controls-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  z-index: 2;
+  pointer-events: auto !important;
+  touch-action: auto !important;
+}
+
+/* Hide all native video controls */
+video::-webkit-media-controls,
+video::-webkit-media-controls-panel,
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-volume-slider-container,
+video::-webkit-media-controls-volume-slider-container *,
+video::-webkit-media-controls-volume-slider *,
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-toggle-closed-captions-button,
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute !important;
+}
+
+/* Video thumbnail styles */
+.video-thumbnail-overlay {
+  cursor: pointer;
+  background-color: #000;
+  transition: background-color 0.2s;
+}
+
+.video-thumbnail-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.play-button-overlay {
+  width: 64px;
+  height: 64px;
+  color: white;
+  opacity: 0.8;
+  transition: transform 0.2s, opacity 0.2s;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.video-thumbnail-overlay:hover .play-button-overlay {
+  transform: scale(1.1);
+  opacity: 1;
+} 

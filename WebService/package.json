@@ -1,0 +1,14 @@
+{
+  "name": "speed-dating-service",
+  "version": "1.0.0",
+  "description": "Speed Dating Web Service",
+  "scripts": {
+    "start:backend": "cd backend && uvicorn main:app --reload --port 8000",
+    "start:frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "install:all": "cd backend && pip install -r requirements.txt && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
